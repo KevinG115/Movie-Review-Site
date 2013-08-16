@@ -1,0 +1,12 @@
+body {
+  color: #C0C0C0;
+  font-family:"Tahoma";
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

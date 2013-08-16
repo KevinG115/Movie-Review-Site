@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<link rel="stylesheet" type="text/css" href="form.css" />
+<link rel="stylesheet" type="text/css" href="index.css" />
+
+<title>moviejam</title>
+</head>
+<body>
+<div align="center">
+<img src="Movie-Header.gif" alt="Site Header"/>
+</div>
+<hr width ="100%"></hr>
+<div id="nav">
+	<ul>
+
+			<li><a href="index.htm">Home</a></li>
+				<li><a href="#">News</a></li>
+				<li><a href="#">Reviews</a></li>
+				<li><a href="#">Coming Soon</a></li>
+				<li><a href="#">Trivia</a></li>
+				<li><a href="Dvd.htm">DVD Releases</a></li>
+			<li><a href="signup.htm">Sign-Up</a></li>
+		<li><a href="login.htm">Login</a></li>
+	</ul>
+</div>
+<div align ="right">
+<form method="get" action="Dvd.htm">
+    <input type="text" name="q" alt="Search" value="" maxlength="256" size="32"/>
+    <input type="submit" name="btnG" value="Search" />
+    <input type="hidden" name="site" value="Dvd"/>
+    <input type="hidden" name="client"value="moveijam" />
+    <input type="hidden" name="proxystylesheet" value="moviejam2" />
+    <input type="hidden" name="output" value="xml_no_dtd"/>
+    <input type="hidden" name="filter" value="0"/>
+    <input type="hidden" name="as_dt" value="i"/>
+
+<br /><font face="tahoma" size="2" color="white"  >Select an area to search:</font>
+<select name="as_sitesearch">
+    <option value="index.htm">Homepage</option>
+    <option value="Dvd.htm">Dvd Releases</option>
+</select>
+</form>
+
+</div>
+<div align="center">
+<font face="tahoma" size="6" color="white"  >Home Page</font>
+</div>
+
+</body>
+</html>
+
